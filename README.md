@@ -1,12 +1,12 @@
 Selenium Web UI Automation Project
 
-Project Overview
+Project Overview:
 -	This project is a Web UI Test Automation project developed using Java, Selenium WebDriver, TestNG and Maven.
 -	The project demonstrates the automation of key user workflows on a dummy e-commerce web application. It was created as a hands-on automation project to practise and demonstrate real-world software testing concepts including Page Object Model (POM), reusable automation methods, element locators, explicit waits, TestNG test execution, screenshots, reporting and Maven-based project management.
 -	The project is maintained using Git and GitHub for version control.
 ________________________________________
 
-Project Objectives
+Project Objectives:
 The main objectives of this project are to:
 •	Automate important user journeys on an e-commerce application.
 •	Develop maintainable Selenium automation code using Java.
@@ -22,7 +22,7 @@ The main objectives of this project are to:
 •	Use Git and GitHub for source-code management.
 ________________________________________
 
-Technologies & Tools
+Technologies & Tools:
 Technology / Tool	Purpose
 Java	Programming language
 Selenium WebDriver	Web UI automation
@@ -37,7 +37,7 @@ Page Object Model	Test framework design
 Chrome / WebDriver	Browser automation
 ________________________________________
 
-Project Structure
+Project Structure:
 SeleniumGit
 │
 ├── .mvn/
@@ -66,7 +66,7 @@ SeleniumGit
 └── README.md
 ________________________________________
 
-Test Scenarios
+Test Scenarios:
 The automation project covers important e-commerce user workflows such as:
 1. Login
 •	Navigate to the login page.
@@ -93,7 +93,7 @@ The automation project covers important e-commerce user workflows such as:
 •	Validate the resulting page or action.
 ________________________________________
 
-Automation Framework Design
+Automation Framework Design:
 The project follows a structured automation approach rather than placing all Selenium code inside a single test class.
 The Page Object Model (POM) design pattern is used to separate:
 •	Page locators
@@ -119,7 +119,7 @@ The project demonstrates selecting appropriate locators based on factors such as
 •	Maintainability
 ________________________________________
 
-Synchronisation & Waits
+Synchronisation & Waits:
 Web applications often contain elements that are not immediately ready for interaction.
 The framework therefore uses Selenium synchronisation techniques to improve test stability.
 Examples include:
@@ -137,7 +137,7 @@ wait.until(
 );
 ________________________________________
 
-TestNG
+TestNG:
 TestNG is used as the test execution framework.
 The project demonstrates TestNG features such as:
 •	@Test
@@ -159,7 +159,7 @@ Reports help with:
 Screenshots are also captured during relevant test scenarios to provide additional information when analysing failures.
 ________________________________________
 
-Screenshots
+Screenshots:
 The project contains a dedicated screenshots directory for storing screenshots generated during test execution.
 Screenshots can be particularly useful when:
 •	An element cannot be located.
@@ -169,7 +169,7 @@ Screenshots can be particularly useful when:
 •	A test unexpectedly fails.
 ________________________________________
 
-Maven
+Maven:
 The project uses Apache Maven for dependency and build management. Project dependencies are maintained in pom.xml.
 Maven provides a consistent way to:
 •	Download project dependencies
@@ -179,7 +179,7 @@ Maven provides a consistent way to:
 •	Integrate the project with CI/CD tools
 ________________________________________
 
-Prerequisites to Run the Project
+Prerequisites to Run the Project:
 Make sure the following are installed:
 •	Java JDK
 •	Maven
